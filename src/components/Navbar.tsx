@@ -34,16 +34,22 @@ const Navbar = () => {
         </div>
         {/* Navbar Items */}
         <div className='cursor-pointer hidden 
-        md:flex space-x-10 items-center text-slate-300 bg-clip-text text-transparent 
+        md:flex  gap-10 items-center text-slate-300 bg-clip-text text-transparent 
         bg-gradient-to-b from-neutral-50 to neutral-400 bg-opacity-50'>
           <div className='hover:text-gray-50'>
-            Desenvolvimento de Websites
+          Home
           </div>
           <div className='hover:text-gray-50'>
-            Design de Ecommerce
+          Sobre Nós
           </div>
           <div className='hover:text-gray-50'>
-            Preços
+          Serviços
+          </div>
+          <div className='hover:text-gray-50'>
+          Preços
+          </div>
+          <div className='hover:text-gray-50'>
+          Blog
           </div>
         </div>
         {/* Mobile Navbar */}
@@ -63,6 +69,12 @@ const Navbar = () => {
             className='w-8 h-8 text-slate-300 cursor-pointer'
             />
           )}
+        </div>
+      {/* Contact Button */}
+        <div className='hidden md:flex'>
+          <Link href={'/contact'} className='inline-flex h-12 animate-shimmer items-center justify-center rounded-md border border-slate-800 bg-[linear-gradient(110deg,#000103,45%,#1e2631,55%,#000103)] bg-[length:200%_100%] px-6 font-medium text-slate-400 transition-colors focus:outline-none focus:ring-2 focus:ring-slate-400 focus:ring-offset-2 focus:ring-offset-slate-50 hover:text-gray-50'>
+          Faça um Orçamento
+          </Link>
         </div>
       </div>
     </section>
