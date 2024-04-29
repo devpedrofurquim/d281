@@ -4,7 +4,7 @@ import Image from 'next/image';
 import React, { useState } from 'react'
 import { motion } from 'framer-motion';
 import { AlignJustify, X } from 'lucide-react';
-import DropDownMenu from '@/components/DropDownMenu'
+import DropDownMenu from '@/components/ui/DropDownMenu'
 
 const Navbar = () => {
   const [isDropDownVisible, setIsDropDownVisible] = useState(false);
