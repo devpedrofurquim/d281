@@ -1,6 +1,6 @@
 import type { Metadata } from "next";
 import { Poppins } from "next/font/google";
-const poppins = Poppins({ subsets: ["latin"], weight: ["400", "600", "700", "900"] });
+const poppins = Poppins({ subsets: ["latin"], weight: ["400", "600", "700", "900"], fallback: ['system-ui', 'arial'] });
 import "./globals.css";
 
 export const metadata: Metadata = {
