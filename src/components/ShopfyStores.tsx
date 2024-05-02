@@ -2,6 +2,8 @@
 import React from 'react';
 import Image from 'next/image';
 
+const words = `Oxygen gets you high. In a catastrophic emergency, we're taking giant, panicked breaths. Suddenly you become euphoric, docile. You accept your fate. It's all right here. Emergency water landing, six hundred miles an hour. Blank faces, calm as Hindu cows`
+
 const stores = [
     {
         image: "/images/shopify-store-1.png",
@@ -34,34 +36,7 @@ const ShopfyStores = () => {
                 <p className='mt-4 text-lg font-normal text-neutral-800 max-w-lg text-center mx-auto'>
                 Nós criamos lindas lojas da Shopify que são desenvolvidas para converter.
                 </p>
-                <div className='grid md:grid-cols-3 grid-cols-1 gap-5 items-center justify-center px-10'>
-                    {stores.map((store, index) => (
-                        <div
-                        key={index}
-                        className='flex flex-col items-center align-items-center justify-center mt-10 md:2/3 mx-auto'
-                        >
-                            <div className='flex flex-col items-center justify-center'>
-                                <Image
-                                    src={store.image}
-                                    alt='shopify store'
-                                    width={200}
-                                    height={200}
-                                    className='rounded-xl mx-auto'
-                                >
-                                </Image>
-                                <p className='text-neutral-800 font-bold text-lg mt-4 text-center'>
-                                        &quot;{store.quote}&quot;
-                                </p>
-                                <p className='text-neutral-800 font-bold text-lg mt-4 text-center'>
-                                    {" "}
-                                    - {store.name}
-                                </p>
-                            </div>
-
-                        </div>
-                    ))}
                 </div>
-            </div>
         </section>
      );
 }
