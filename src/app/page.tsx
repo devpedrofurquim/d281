@@ -16,10 +16,6 @@ export default function Home() {
   return (
     <main className="w-full md:items-center md:justify-center text-white bg-black/[0.96] antialiased bg-grid-white/[0.02] relative overflow-hidden">
       <Navbar/>
-      {/* <Spotlight
-      className=" left-80"
-      fill="gray"
-      /> */}
       <Hero/>
       <Websites/>
       <WebDesign/>

@@ -5,22 +5,13 @@ import { cn } from "@/lib/utils";
 
 const logos = [
     {
-        image: '/brand/brand-1.svg'
+        image: '/brands/brand-1.svg'
     },
     {
-        image: '/brand/brand-1.svg'
+        image: '/brands/brand-1.svg'
     },
     {
-        image: '/brand/brand-1.svg'
-    },
-    {
-        image: '/brand/brand-1.svg'
-    },
-    {
-        image: '/brand/brand-1.svg'
-    },
-    {
-        image: '/brand/brand-1.svg'
+        image: '/brands/brand-1.svg'
     },
 ]
 
@@ -34,6 +25,24 @@ const Brands = () => {
             <p className='mt-4 text-lg font-normal text-neutral-300 max-w-lg text-center mx-auto'>
                 Desde negócios pequenos até grandes corporações, nós temos o que você precisa para crescer o seu negócio.
             </p>
+
+            <div className="grid grid-cols-3 items-center justify-center mx-auto md:w-3/5 cursor-pointer">
+                {
+                    logos.map((logo, i) => (
+                        <div key={i} className="p-4 md:p-20">
+                            <Image
+                                priority
+                                src={logo.image}
+                                width={400}
+                                height={400}
+                                alt="Logo"
+                            >
+
+                            </Image>
+                        </div>
+                    ))
+                }
+            </div>
         </div>
     </section>
     
