@@ -11,6 +11,7 @@ import Laptop from "@/components/ui/Laptop";
 import Phone from "@/components/ui/Phone";
 import ShopfyStores from '@/components/ShopfyStores'
 import Brands from "@/components/brands";
+import Services from "@/components/Services";
 
 export default function Home() {
   return (
@@ -21,6 +22,7 @@ export default function Home() {
       <WebDesign/>
       <ShopfyStores/>
       <Brands/>
+      <Services/>
     </main>
   );
 }

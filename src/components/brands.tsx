@@ -36,12 +36,32 @@ const Brands = () => {
                                 width={400}
                                 height={400}
                                 alt="Logo"
-                            >
-
-                            </Image>
+                                className="w-full h-auto max-w-[100px] rounded-lg"
+                            />
                         </div>
                     ))
                 }
+            </div>
+            
+            <div className={cn(
+                    "flex items-center justify-center text-xl xl:text-2xl pt-10 md:pt-0 pb-4 px-8 text-center"
+                )}>
+                    &quot;Nós nos desfaszemos de quase uma duzia de diferentes ferramentas por cause do que a D281 realizou em nossa empresa.&quot;
+            </div>
+
+            <div className="items-center flex justify-center flex-col text-white">
+                <Image
+                    src={"/brands/brand-1.svg"}
+                    alt="logo"
+                    width={1000}
+                    height={1000}
+                    className="pt-2 xl:pt-0 w-10 xl:w-14"
+                />
+
+                <div className="text-center">
+                    <div className="text-sm font-medium pt-4">Elon Musk</div>
+                    <div className="text-sm">CEO, Tesla</div>
+                </div>
             </div>
         </div>
     </section>
