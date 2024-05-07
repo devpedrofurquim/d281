@@ -7,7 +7,6 @@ import Websites from '@/components/Websites'
 import WebDesign from '@/components/WebDesign';
 import Video from "@/components/ui/Video";
 import Graphics from "@/components/ui/Graphics";
-import Laptop from "@/components/ui/Laptop";
 import Phone from "@/components/ui/Phone";
 import ShopfyStores from '@/components/ShopfyStores'
 import Brands from "@/components/brands";
