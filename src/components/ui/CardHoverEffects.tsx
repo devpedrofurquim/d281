@@ -92,12 +92,14 @@ export const CardIcon = ({
     children: string
 }) => {
     return (
+      <div className="bg-pink-400 p-4 rounded-full flex justify-start items-center">
         <Image
             src={children}
             width={50}
             height={50}
             alt="icon"
         />
+      </div>
     )
 }
 

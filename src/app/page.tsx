@@ -11,6 +11,7 @@ import Phone from "@/components/ui/Phone";
 import ShopfyStores from '@/components/ShopfyStores'
 import Brands from "@/components/brands";
 import Services from "@/components/Services";
+import Faq from "@/components/faq";
 
 export default function Home() {
   return (
@@ -22,6 +23,7 @@ export default function Home() {
       <ShopfyStores/>
       <Brands/>
       <Services/>
+      <Faq/>
     </main>
   );
 }

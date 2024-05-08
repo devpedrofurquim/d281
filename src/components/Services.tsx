@@ -44,7 +44,7 @@ const services = [
 
 const Services = () => {
     return ( 
-        <section className='p-4 mx-auto relative z-10 w-full pt-10 md:pt-20 px-2'>
+        <section className='p-4 mx-auto relative z-10 w-full pt-10 md:pt-20 px-2 max-w-5xl'>
             <div className={`text-4xl pb-5 md:text-7xl px-6 text-center bg-clip-text text-transparent bg-gradient-to-r from-rose-700 to-pink-600 bg-clip-text text-transparent bg-opacity-50 font-semibold`}>
             Alavanque seu negócio com <br />os nosso serviços
             </div>
