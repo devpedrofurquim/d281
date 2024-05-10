@@ -6,7 +6,22 @@ import { motion } from 'framer-motion';
 import { AlignJustify, X } from 'lucide-react';
 import DropDownMenu from '@/components/ui/DropDownMenu'
 
-const Navbar = () => {
+interface NavbarProps {
+  scrollToWebsites: () => void;
+  scrollToDesign: () => void;
+  scrollToStores: () => void;
+  scrollToBrands: () => void;
+  scrollToServices: () => void;
+  
+}
+
+const Navbar: React.FC<NavbarProps> = ({
+  scrollToWebsites,
+  scrollToDesign,
+  scrollToStores,
+  scrollToBrands,
+  scrollToServices
+}) => {
   const [isDropDownVisible, setIsDropDownVisible] = useState(false);
 
   const toggleDropDown = () => {
@@ -36,20 +51,20 @@ const Navbar = () => {
         <div className='cursor-pointer hidden 
         md:flex  gap-10 items-center text-slate-300 bg-clip-text text-transparent 
         bg-gradient-to-b from-neutral-50 to neutral-400 bg-opacity-50'>
-          <div className='hover:text-gray-50'>
-          Home
+          <div onClick={scrollToWebsites} className='hover:text-gray-50'>
+          Website Design
           </div>
-          <div className='hover:text-gray-50'>
-          Sobre Nós
+          <div onClick={scrollToDesign} className='hover:text-gray-50'>
+          Graphic Design
           </div>
-          <div className='hover:text-gray-50'>
-          Serviços
+          <div onClick={scrollToStores} className='hover:text-gray-50'>
+          Shopify Stores
           </div>
-          <div className='hover:text-gray-50'>
-          Preços
+          <div onClick={scrollToBrands} className='hover:text-gray-50'>
+          Brands
           </div>
-          <div className='hover:text-gray-50'>
-          Blog
+          <div onClick={scrollToServices} className='hover:text-gray-50'>
+          Services
           </div>
         </div>
         {/* Mobile Navbar */}
