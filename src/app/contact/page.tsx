@@ -104,7 +104,6 @@ export default function ContactForm() {
       if (!res.ok) {
         throw new Error("Something went wrong");
       }
-
       setSubmitted(true);
     } catch (error) {
       toast({
