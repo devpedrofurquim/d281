@@ -113,7 +113,7 @@ const Pricing = () => {
                             {
                                 index === 0 && (
                                     <Link
-                                        href="#"
+                                        href="https://buy.stripe.com/aEU7uM7qW7HAdoc8ww"
                                         className="rounded-3xl my-4 py-2 text-white w-full mx-auto items-center flex justify-center bg-gradient-to-r from-purple-500 to-purple-900 bg-opacity-50 font-semibold"
                                     >
                                         {plan.button}
@@ -123,7 +123,7 @@ const Pricing = () => {
                             {
                                 index === 1 && (
                                     <Link
-                                        href="#"
+                                        href="https://buy.stripe.com/cN27uM6mSge683S8wx"
                                         className="rounded-3xl my-4 py-2 text-white w-full mx-auto items-center flex justify-center bg-gradient-to-r from-purple-500 to-purple-900 bg-opacity-50 font-semibold"
                                     >
                                         {plan.button}
@@ -133,7 +133,7 @@ const Pricing = () => {
                             {
                                 index === 2 && (
                                     <Link
-                                        href="#"
+                                        href="/contact"
                                         className="rounded-3xl my-4 py-2 text-white w-full mx-auto items-center flex justify-center bg-gradient-to-r from-purple-500 to-purple-900 bg-opacity-50 font-semibold"
                                     >
                                         {plan.button}
