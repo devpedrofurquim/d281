@@ -261,7 +261,7 @@ export default function ContactForm() {
                           </SelectItem>
                         </div>
                         <SelectItem value="Saiba Mais">Saiba Mais</SelectItem>
-                        <SelectItem value="Obtenha um Orçamento">Obtenha um Orçamento</SelectItem>
+                        <SelectItem value="Obter um Orçamento">Obter um Orçamento</SelectItem>
 
                         <SelectItem value="Outros">Outros</SelectItem>
                       </SelectContent>
@@ -292,7 +292,7 @@ export default function ContactForm() {
                     className="outline outline-white"
                   />
                 </div>
-                <div className="text-xs font-light  md:w-3/4 mb-1 bg-clip-text text-transparent bg-gradient-to-b from-neutral-50 to-neutral-400">
+                <div className="text-sm font-light  mb-1 bg-clip-text text-transparent bg-gradient-to-b from-neutral-50 to-neutral-400">
                 Eu concordo com a D281 enviando comunicações de marketing relacionadas à D281.
                 </div>
               </div>
