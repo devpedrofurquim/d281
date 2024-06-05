@@ -5,38 +5,35 @@ import {
     AccordionItem,
     AccordionTrigger,
   } from "@/components/ui/accordion"
+import Footer from "./Footer";
 
 const Faq = () => {
     return ( 
-        <section className="mt-10 md:py-10 bg-[#f6f5f4] w-full rounded-3xl flex flex-col justify-center items-center">
-             <div className={`text-4xl pb-5 pt-5 md:text-7xl px-6 bg-clip-text text-transparent bg-gradient-to-r from-violet-600 to-indigo-600 bg-opacity-50 font-semibold`}>
-                Possui duvidas? <br />
+        <section className="mt-10 md:py-10 bg-[#f6f5f4] w-full rounded-t-3xl flex flex-col justify-center items-center">
+             <div className={`text-4xl pb-5 pt-5 md:text-7xl text-center px-6 bg-clip-text text-transparent bg-gradient-to-r from-violet-600 to-indigo-600 bg-opacity-50 font-semibold`}>
+                Dúvidas Frequentes <br />
             </div>
-            <p className='mt-4 text-lg font-normal text-black max-w-lg mx-auto px-4'>
-            Aqui estão as respostas.
-            </p>
             <Accordion type="single" collapsible className="text-black w-1/2">
             <AccordionItem value="item-1">
-                <AccordionTrigger>Is it accessible?</AccordionTrigger>
+                <AccordionTrigger>Qual o tempo médio para entregar?</AccordionTrigger>
                 <AccordionContent>
-                Yes. It adheres to the WAI-ARIA design pattern.
+                Para desenvolvimento de websites, o prazo é de 3 a 5 dias, enquanto para software customizados, o tempo médio de entrega é de 3-6 meses, dependendo da complexidade do projeto. Se você está pensando em desenvolver um projeto e gostaria de saber mais sobre o tempo e o custo envolvidos, entre em contato conosco para uma conversa personalizada!
                 </AccordionContent>
             </AccordionItem>
             <AccordionItem value="item-2">
-                <AccordionTrigger>Is it styled?</AccordionTrigger>
+                <AccordionTrigger>Como você trata revisões e iterações durante o desenvolvimento?</AccordionTrigger>
                 <AccordionContent>
-                Yes. It comes with default styles that matches the other
-                components&apos; aesthetic.
+                Nossas revisões ilimitadas garantem que o seu projeto seja exatamente o que você precisa. Trabalhamos estreitamente com os clientes para entender suas necessidades e utilizamos metodologias ágeis para iterar e refinar nosso trabalho.
                 </AccordionContent>
             </AccordionItem>
             <AccordionItem value="item-3">
-                <AccordionTrigger>Is it animated?</AccordionTrigger>
+                <AccordionTrigger>Qual é sua abordagem para testes e garantia de qualidade?</AccordionTrigger>
                 <AccordionContent>
-                Yes. It&apos;s animated by default, but you can disable it if you
-                prefer.
+                Nossa abordagem para testes e garantia de qualidade é baseada em um processo aprovado e iterativo, que inclui análise de requisitos, testes automatizados e manuais, revisão de código e entrega de produtos que atendam a padrões altos de qualidade. Isso garante que nossos produtos sejam seguros, escaláveis e fáceis de usar.
                 </AccordionContent>
             </AccordionItem>
             </Accordion>
+            <Footer/>
         </section>
      );
 }

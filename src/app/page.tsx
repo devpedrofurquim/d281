@@ -15,6 +15,7 @@ import Brands from "@/components/brands";
 import Services from "@/components/Services";
 import Faq from "@/components/faq";
 import { useRef } from "react";
+import Footer from "@/components/Footer";
 
 export default function Home() {
 
@@ -55,17 +56,14 @@ export default function Home() {
         scrollToServices={scrollToServices}
       />
       <Hero/>
-      <div ref={websitesRef}>
+      <div ref={websitesRef} id="websites">
         <Websites/>
-      </div>
-      <div ref={servicesRef}>
-        <Services/>
       </div>
       <div ref={shopifyRef}>
         <ShopfyStores/>
       </div>
-      <div ref={brandsRef}>
-        <Brands/>
+      <div ref={servicesRef} id="tecnologias">
+        <Services/>
       </div>
       <Faq/>
     </main>

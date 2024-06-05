@@ -50,21 +50,31 @@ const Navbar: React.FC<NavbarProps> = ({
         {/* Navbar Items */}
         <div className='cursor-pointer hidden 
         lg:flex gap-10 items-center text-white'>
-          <div onClick={scrollToWebsites} className='hover:text-gray-50'>
-          Websites
-          </div>
-          <div onClick={scrollToDesign} className='hover:text-gray-50'>
-          Design UI/UX
-          </div>
-          <div onClick={scrollToStores} className='hover:text-gray-50'>
-          Lojas Shopify
-          </div>
-          <div onClick={scrollToBrands} className='hover:text-gray-50'>
-          Marcas
-          </div>
-          <div onClick={scrollToServices} className='hover:text-gray-50'>
-          Serviços
-          </div>
+          <Link href="/">
+            <div className='hover:text-gray-50'>
+              Home
+            </div>
+          </Link>
+          <Link href="/#websites">
+            <div className='hover:text-gray-50'>
+            Serviços
+            </div>
+          </Link>
+          <Link href="/#tecnologias">
+            <div className='hover:text-gray-50'>
+            Tecnologias
+            </div>
+          </Link>
+          <Link href="/portfolio">
+            <div className='hover:text-gray-50'>
+            Portfólio
+            </div>
+          </Link>
+          <Link href="/pricing">
+            <div className='hover:text-gray-50'>
+            Planos
+            </div>
+          </Link>
         </div>
         {/* Mobile Navbar */}
         <div className='flex lg:hidden'>
