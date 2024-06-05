@@ -4,37 +4,34 @@ import Graphic from '@/components/ui/Graphic';
 
 const Graphics = () => {
     return ( 
-        <div className="grid grid-cols-1 lg:grid-cols-3 gap-4 max-w-7xl mx-auto w-full my-10">
+        <div className="grid grid-cols-1 lg:grid-cols-3 gap-4 max-w-7xl mx-auto w-full mt-10">
             <Graphic
             containerClassName="col-span-1 lg:col-span-2 h-full bg-pink-800 min-h-[300px]"
             >
                 <div className="max-w-xs">
                 <h2 className="text-left text-balance text-base md:text-xl lg:text-3xl font-semibold tracking-[-0.015em] text-white">
-                Gippity AI powers the entire universe
+                Desenvolvimento de Websites
                 </h2>
                 <p className="mt-4 text-left  text-base/6 text-neutral-200">
-                With over 100,000 mothly active bot users, Gippity AI is the most
-                popular AI platform for developers.
+                Criamos sites deslumbrantes e totalmente responsivos que cativam seu público e convertem visitantes em clientes fiéis.
                 </p>
                 </div>
             </Graphic>
             <Graphic containerClassName="col-span-1 min-h-[300px]">
                 <h2 className="max-w-80  text-left text-balance text-base md:text-xl lg:text-3xl font-semibold tracking-[-0.015em] text-white">
-                No shirt, no shoes, no weapons.
+                Web Design de ponta
                 </h2>
                 <p className="mt-4 max-w-[26rem] text-left  text-base/6 text-neutral-200">
-                If someone yells “stop!”, goes limp, or taps out, the fight is over.
+                Nós criamos soluções responsivas de design para a seu empresa com o <span className='font-bold'>Tailwind.css</span>, nosso principal ingrediente.
                 </p>
             </Graphic>
             <Graphic containerClassName="col-span-1 lg:col-span-3 bg-blue-900 min-h-[300px]">
                 <div className="max-w-sm">
                 <h2 className="max-w-sm md:max-w-lg  text-left text-balance text-base md:text-xl lg:text-3xl font-semibold tracking-[-0.015em] text-white">
-                Signup for blazing-fast cutting-edge state of the art Gippity AI
-                wrapper today!
+                Lojas Shopify
                 </h2>
                 <p className="mt-4 max-w-[26rem] text-left  text-base/6 text-neutral-200">
-                With over 100,000 mothly active bot users, Gippity AI is the most
-                popular AI platform for developers.
+                Nós criamos lindas lojas da Shopify que são desenvolvidas para converter.
                 </p>
                 </div>
             </Graphic>

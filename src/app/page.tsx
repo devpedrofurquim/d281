@@ -58,14 +58,14 @@ export default function Home() {
       <div ref={websitesRef}>
         <Websites/>
       </div>
+      <div ref={servicesRef}>
+        <Services/>
+      </div>
       <div ref={shopifyRef}>
         <ShopfyStores/>
       </div>
       <div ref={brandsRef}>
         <Brands/>
-      </div>
-      <div ref={servicesRef}>
-        <Services/>
       </div>
       <Faq/>
     </main>
