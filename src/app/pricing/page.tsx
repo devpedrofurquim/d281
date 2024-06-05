@@ -13,51 +13,49 @@ import Navbar from "@/components/Navbar";
 const plans = [
     {
         index: 0,
-        title: "Basic",
+        title: "Componentes",
         price: "BRL R$ 499",
         features: [
-            "Fully responsible on all screens",
-            "Design + Development",
-            "Private Communication Channels",
-            "1-3 days turnaround time",
+            "Plenamente responsável em todas as telas",
+            "Design + Desenvolvimento",
+            "Tempo de entrega de 3-5 dias",
+            "Revisões ilimitadas"
         ],
         style: "rounded-3xl py-10 bg-clip-text text-transparent bg-gradient-to-b from-neutral-300 to-neutral-50",
-        description: "Standalone components tailored to your needs and easily integrated. Perfect for website elements and sections.",
-        button: "Buy Now"
+        description: "Componentes independentes personalizados para atender às suas necessidades e facilmente integráveis. Perfeitos para elementos e seções de websites.",
+        button: "Contratar"
     },
     {
         index: 1,
-        title: "Premium",
+        title: "Websites Completos",
         price: "BRL R$ 1299",
         features: [
-            "Fully responsible on all screens",
-            "Design + Development",
-            "Private Communication Channels",
-            "3-5 days turnaround time",
-            "React / Next.js / Tailwind CSS code",
-            "24-hour support response time"
+            "Plenamente responsável em todas as telas",
+            "Design + Desenvolvimento",
+            "Canais de Comunicação Privados",
+            "Tempo de entrega de 5-7 dias",
+            "Tempo de resposta de suporte de 24 horas",
+            "Revisões ilimitadas"
         ],
         style: "rounded-3xl py-10 bg-clip-text text-transparent bg-gradient-to-b from-neutral-300 to-neutral-50",
-        description: "Best for early-stage startups, businesses, and freelancers that need a marketing side to showcase their work and vision.",
-        button: "Buy Now"
+        description: "Melhor para pequenas empresas e startups que necessitam de um website performático e bonito que possa converter visitantes em clientes.",
+        button: "Contratar"
     },
     {
         index: 2,
-        title: "Enterprise",
-        price: "Let's Talk!",
+        title: "Projetos Especiais",
+        price: "Vamos conversar!",
         features: [
-            "Fully responsive on all screens",
-            "React / Next.js / Tailwind CSS code",
-            "Design + Development",
-            "Unlimited Revisions",
-            "24-hour support response time",
-            "Private communication channel",
-            "Priority Development Queue",
-            "Dedicated Project Manager"
+            "Plenamente responsável em todas as telas",
+            "Design + Desenvolvimento",
+            "Revisões ilimitadas",
+            "Tempo de resposta de suporte de 24 horas",
+            "Canais de Comunicação Privados",
+            "Fila de Desenvolvimento Priorizada",
         ],
         style: "rounded-3xl py-10 bg-clip-text text-transparent bg-gradient-to-b from-neutral-300 to-neutral-50",
-        description: "Best for small businesses and startups that need a performant website that looks great and converts visitors to customers.",
-        button: "Buy Now"
+        description: "Melhor para empresas que necessitam de um projeto totalmente customizado.",
+        button: "Entre em Contato"
     }
 ]
 
