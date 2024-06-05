@@ -37,6 +37,8 @@ import { useToast } from "@/components/ui/use-toast";
 import { Textarea } from "@/components/ui/textarea";
 import { PiCheckLight, PiSmiley } from "react-icons/pi";
 import Navbar from "@/components/Navbar";
+import Footer from "@/components/Footer";
+import Faq from "@/components/faq";
 
 const FormSchema = z.object({
   first_name: z.string(),
@@ -116,7 +118,7 @@ export default function ContactForm() {
   }
 
   return (
-    <div className="w-full md:items-center md:justify-center bg-black/[0.96] antialiased bg-grid-white/[0.02] relative overflow-hidden">
+    <main className="w-full md:items-center md:justify-between text-white bg-black/[0.96] antialiased bg-grid-white/[0.02] relative overflow-hidden">
       <Navbar
         scrollToWebsites={() => {}}
         scrollToDesign={() => {}}
@@ -124,16 +126,16 @@ export default function ContactForm() {
         scrollToBrands={() => {}}
         scrollToServices={() => {}}
       />
-      <div className="flex flex-col items-center justify-center text-center py-20 px-6">
-        <div className="">
-          <div className="text-5xl font-medium  w-full bg-clip-text text-transparent bg-gradient-to-b from-neutral-50 to-neutral-400 bg-opacity-50">
+      <div className="flex flex-col min-h-screen max-w-screen-xl mx-auto text-center bg-black/[0.96] bg-grid-white/[0.02] pt-10 md:pt-20 ">
+      <div>
+          <div className="text-3xl md:text-7xl font-semibold bg-clip-text text-transparent bg-gradient-to-b from-neutral-50 to-neutral-400 bg-opacity-50">
             Contate nossa equipe de vendas
           </div>
           <div
-            className="py-4 text-gray-300">
+            className="py-10 text-lg text-gray-300">
             Vamos conversar sobre como a D281 pode alavancar o seu negócio.
           </div>
-        </div>
+      </div>
 
         <Form {...form}>
           {!submitted ? (
@@ -141,7 +143,6 @@ export default function ContactForm() {
               onSubmit={form.handleSubmit(onSubmit)}
               className="
             space-y-4
-            h-full
             border rounded-3xl p-10"
             >
               <div className="md:flex items-center gap-6 ">
@@ -322,10 +323,10 @@ export default function ContactForm() {
         items-center
         justify-center
         flex-col
-        px-8"
+        px-8 relative"
               >
                 <div className="w-80 py-20">
-                  <PiSmiley className="text-6xl text-[#6c6684] mx-auto" />
+                  <PiSmiley className="text-6xl text-[#fff] mx-auto" />
 
                   <div className="text-gray-500 font-light  text-center justify-center mx-auto py-10">
                   Nós recebemos sua solicitação e vamos entrar em contato com você via email em breve.
@@ -336,6 +337,7 @@ export default function ContactForm() {
           )}
         </Form>
       </div>
-    </div>
+      <Faq/>
+    </main>
   );
 }

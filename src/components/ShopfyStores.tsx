@@ -29,7 +29,7 @@ const gradient03 = 'bg-gradient-to-br from-red-400 to-blue-600'; // Yes // Yes
 
 const ShopfyStores = () => {
     return ( 
-        <section className='mt-10 py-10 md:py-20 bg-[#f6f5f4] max-w-screen-2xl mx-auto rounded-3xl'>
+        <section className='mt-10 py-10 md:py-20 bg-[#f6f5f4] max-w-screen-2xl mx-auto lg:rounded-3xl'>
             <div className='p-4 mx-auto relative z-10 items-center justify-around text-center flex flex-col lg:flex-row'>
                 <div className={`text-3xl pb-5 md:text-7xl px-6 text-center bg-clip-text text-transparent ${gradient03} bg-opacity-50 font-semibold`}>
                 Explore Nosso Trabalho <br />

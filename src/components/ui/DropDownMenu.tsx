@@ -19,7 +19,10 @@ const DropDownMenu = () => {
                     Entre em Contato
                 </Link>
                 <Link href="/book" className='text-black text-2xl'>
-                    Agende uma reunião
+                    Agende uma consultoria
+                </Link>
+                <Link href="/portfolio" className='text-black text-2xl'>
+                    Portfólio
                 </Link>
                 <Link href="/pricing" className='text-black text-2xl'>
                     Preços

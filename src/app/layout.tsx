@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import { Poppins } from "next/font/google";
 const poppins = Poppins({ subsets: ["latin"], weight: ["400", "600", "700", "900"], fallback: ['system-ui', 'arial'] });
 import "./globals.css";
+import Head from "next/head";
 
 export const metadata: Metadata = {
   title: "D281 - Software House",
@@ -22,6 +23,9 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
+        <Head>
+          <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+      </Head>
       <body className={poppins.className}>{children}</body>
     </html>
   );
