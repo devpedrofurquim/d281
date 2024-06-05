@@ -58,9 +58,6 @@ export default function Home() {
       <div ref={websitesRef}>
         <Websites/>
       </div>
-      <div ref={designRef}>
-        <WebDesign/>
-      </div>
       <div ref={shopifyRef}>
         <ShopfyStores/>
       </div>
