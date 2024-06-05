@@ -26,49 +26,48 @@ const Navbar: React.FC<NavbarProps> = ({
 
   const toggleDropDown = () => {
     setIsDropDownVisible(!isDropDownVisible);
+    isDropDownVisible == true ? document.documentElement.style.overflow = "" : document.documentElement.style.overflow = "hidden"
   }
 
   const closeDropDown = () => {
-    setIsDropDownVisible(false);
+    setIsDropDownVisible(!isDropDownVisible);
   }
 
   return (
-    <section>
-      <div className='p-6 md:p-10 flex items-center justify-between z-50'>
+    <section className='max-w-screen-xl justify-center items-center text-center mx-auto'>
+      <div className='p-10 flex items-center justify-between z-50'>
         {/* Logo D281 */}
         <div>
-            <Link className='cursor-pointer' href="/"/>
-            <Image 
+            <Link className='cursor-pointer' href="/"><Image
               priority
               src={"/logo/logo.svg"}
               alt='D281'
               width={100}
               height={100}
-              className='w-10 h-10 md:w-14 md:h-14'
-            />
+              className='w-16 h-16 md:w-20 md:h-20'
+            /></Link>
         </div>
         {/* Navbar Items */}
         <div className='cursor-pointer hidden 
-        md:flex  gap-10 items-center text-slate-300 bg-clip-text text-transparent 
-        bg-gradient-to-b from-neutral-50 to neutral-400 bg-opacity-50'>
+        lg:flex gap-10 items-center text-white'>
           <div onClick={scrollToWebsites} className='hover:text-gray-50'>
-          Website Design
+          Websites
           </div>
           <div onClick={scrollToDesign} className='hover:text-gray-50'>
-          Graphic Design
+          Design UI/UX
           </div>
           <div onClick={scrollToStores} className='hover:text-gray-50'>
-          Shopify Stores
+          Lojas Shopify
           </div>
           <div onClick={scrollToBrands} className='hover:text-gray-50'>
-          Brands
+          Marcas
           </div>
           <div onClick={scrollToServices} className='hover:text-gray-50'>
-          Services
+          Serviços
           </div>
         </div>
         {/* Mobile Navbar */}
-        <div className='flex md:hidden'>
+        <div className='flex lg:hidden'>
           {isDropDownVisible ? (
             // Display Close Icon when the Drop Down is visible
             <div
@@ -76,7 +75,7 @@ const Navbar: React.FC<NavbarProps> = ({
               className='w-8 h-8 text-slate-300 cursor-pointer'
             >
               <X/>
-              <DropDownMenu onClose={closeDropDown}/>
+              <DropDownMenu/>
             </div>
           ) : (
             <AlignJustify
@@ -86,7 +85,7 @@ const Navbar: React.FC<NavbarProps> = ({
           )}
         </div>
       {/* Contact Button */}
-        <div className='hidden md:flex'>
+        <div className='hidden lg:flex'>
           <Link href={'/contact'} className='inline-flex h-12 animate-shimmer items-center justify-center rounded-md border border-slate-800 bg-[linear-gradient(110deg,#000103,45%,#1e2631,55%,#000103)] bg-[length:200%_100%] px-6 font-medium text-slate-400 transition-colors focus:outline-none focus:ring-2 focus:ring-slate-400 focus:ring-offset-2 focus:ring-offset-slate-50 hover:text-gray-50'>
           Faça um Orçamento
           </Link>
