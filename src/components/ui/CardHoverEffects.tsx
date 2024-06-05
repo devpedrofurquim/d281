@@ -38,7 +38,7 @@ export const CardHoverEffect = ({
           <AnimatePresence>
             {hoveredIndex === idx && (
               <motion.span
-                className="absolute inset-0 h-full w-full bg-gradient-to-r from-pink-500 to-violet-600 block  rounded-3xl"
+                className="absolute inset-0 h-full w-full bg-gradient-to-r from-purple-500 to-purple-900 block  rounded-3xl"
                 layoutId="hoverBackground"
                 initial={{ opacity: 0 }}
                 animate={{
@@ -92,7 +92,7 @@ export const CardIcon = ({
     children: string
 }) => {
     return (
-      <div className="bg-pink-400 p-4 rounded-full flex justify-start items-center">
+      <div className="p-4 rounded-full flex justify-start items-center">
         <Image
             src={children}
             width={50}

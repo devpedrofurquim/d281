@@ -4,40 +4,40 @@ import { CardHoverEffect } from "./ui/CardHoverEffects";
 
 const services = [
     {
-        title: 'Desenvolvimento Web',
-        description: 'A technology company that builds economic infrastructure for the internet.',
+        title: 'Next JS',
+        description: 'Desenvolvido para uma experiência de desenvolvimento mais rápida e eficiente, o Next.js é uma ferramenta de construção de aplicativos JavaScript que permite criar aplicativos mais rápidos e escaláveis',
         link: '/web',
-        icon: '/brands/brand-1.svg'
+        icon: '/brands/next.png'
     },
     {
-        title: 'Desenvolvimento Web',
-        description: 'A technology company that builds economic infrastructure for the internet.',
+        title: 'TypeScript',
+        description: 'Um suplemento de linguagem de programação para JavaScript, o TypeScript ajuda a melhorar a legibilidade e a manutenção do código, fornecendo ferramentas de análise de tipo e compilação estática.',
         link: '/apps',
-        icon: '/brands/brand-1.svg'
+        icon: '/brands/typescript.png'
     },
     {
-        title: 'Desenvolvimento Web',
-        description: 'A technology company that builds economic infrastructure for the internet.',
+        title: 'React',
+        description: 'Uma biblioteca de UI de JavaScript popular, o React permite criar interfaces de usuário dinâmicas e escaláveis, com um foco em componentes reutilizáveis e stateless.',
         link: '/web-2',
-        icon: '/brands/brand-1.svg'
+        icon: '/brands/react.png'
     },
     {
-        title: 'Desenvolvimento Web',
-        description: 'A technology company that builds economic infrastructure for the internet.',
+        title: 'Tailwind CSS',
+        description: 'Uma biblioteca de estilização CSS flexível e personalizável, o Tailwind CSS ajuda a simplificar o processo de estilização, permitindo criar layouts rápidos e consistente em aplicativos.',
         link: '/apps-2',
-        icon: '/brands/brand-1.svg'
+        icon: '/brands/tailwind.png'
     },
     {
-        title: 'Desenvolvimento Web',
-        description: 'A technology company that builds economic infrastructure for the internet.',
+        title: 'Node JS',
+        description: 'Uma plataforma de execução de JavaScript no lado do servidor, o Node.js permite criar aplicativos escaláveis e performáticos, com um foco em event-driven I/O e threads.',
         link: '/web-3',
-        icon: '/brands/brand-1.svg'
+        icon: '/brands/node.png'
     },
     {
-        title: 'Desenvolvimento Web',
-        description: 'A technology company that builds economic infrastructure for the internet.',
+        title: 'Express JS',
+        description: 'Uma biblioteca de framework de aplicativo web para Node.js, o Express.js permite criar aplicativos web escaláveis e flexíveis, com suporte a rotas, middlewares e templates.',
         link: '/apps-3',
-        icon: '/brands/brand-1.svg'
+        icon: '/brands/express.webp'
     }
 ]
 
