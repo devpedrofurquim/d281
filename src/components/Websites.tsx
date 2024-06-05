@@ -14,7 +14,7 @@ const gradient03 = 'bg-gradient-to-br from-teal-400 to-blue-600'; // Yes // Yes
 
 const Websites = () => {
     return ( 
-        <section className='p-4 mx-auto relative z-10 w-full pt-10 md:pt-20 px-2'>
+        <section className='p-4 mx-auto relative z-10 max-w-screen-2xl pt-10 md:pt-20 px-2'>
         <div className={`text-4xl pb-5 md:text-7xl px-6 text-center bg-clip-text text-transparent ${gradient01} bg-opacity-50 font-semibold`}>
         Design e Desenvolvimento <br />de Websites
         </div>

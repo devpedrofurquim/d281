@@ -24,7 +24,7 @@ const SliderOne = () => {
         pauseOnHover: false,
         fade: false,
         slidesToScroll: 1,
-        className: 'w-full mx-auto cursor-pointer center-mode'
+        className: 'max-w-screen-2xl mx-auto cursor-pointer center-mode'
     }
 
     if (isMediumScreen) settings.slidesToShow = 1.67
@@ -34,10 +34,10 @@ const SliderOne = () => {
         <div>
             <Slider {...settings}>
                 <>
-                <div className='rounded-md px-2 md:p-10 flex flex-col items-center'>
+                <div className='rounded-md px-4 flex flex-col items-center'>
                     <Image
                         priority
-                        src="/images/small.jpg"
+                        src="/images/code-1.jpg"
                         alt='logo'
                         width={500}
                         height={500}
@@ -46,10 +46,10 @@ const SliderOne = () => {
                 </div>
                 </>
                 <>
-                <div className='rounded-md px-2 md:p-10'>
+                <div className='rounded-md px-4'>
                     <Image
                         priority
-                        src="/images/small.jpg"
+                        src="/images/code-2.jpg"
                         alt='logo'
                         width={500}
                         height={500}
@@ -58,10 +58,10 @@ const SliderOne = () => {
                 </div>
                 </>
                 <>
-                <div className='rounded-md px-2 md:p-10'>
+                <div className='rounded-md px-4'>
                     <Image
                         priority
-                        src="/images/small.jpg"
+                        src="/images/code-3.jpg"
                         alt='logo'
                         width={500}
                         height={500}
