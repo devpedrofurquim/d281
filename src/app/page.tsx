@@ -1,21 +1,12 @@
 'use client';
 
-import Image from "next/image";
 import Navbar  from '@/components/Navbar';
 import Hero from '@/components/Hero';
-import SliderOne from '@/components/ui/Slider';
-import { Spotlight } from "@/components/ui/Spotlight";
 import Websites from '@/components/Websites'
-import WebDesign from '@/components/WebDesign';
-import Video from "@/components/ui/Video";
-import Graphics from "@/components/ui/Graphics";
-import Phone from "@/components/ui/Phone";
 import ShopfyStores from '@/components/ShopfyStores'
-import Brands from "@/components/brands";
 import Services from "@/components/Services";
 import Faq from "@/components/faq";
 import { useRef } from "react";
-import Footer from "@/components/Footer";
 
 export default function Home() {
 

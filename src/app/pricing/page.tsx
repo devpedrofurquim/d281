@@ -1,18 +1,8 @@
 'use client';
-
-import { useState } from "react";
-import Image from "next/image";
-import Link from "next/link";
-import { motion } from "framer-motion";
-import { AlignJustify, X } from "lucide-react";
-
-import { PiCheckCircleFill } from 'react-icons/pi';
-import DropDownMenu from "@/components/ui/DropDownMenu";
 import Navbar from "@/components/Navbar";
 
 
 import React from "react";
-import { features } from "process";
 import Plans from "./components/Plan";
 import Faq from "@/components/faq";
 

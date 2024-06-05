@@ -1,17 +1,7 @@
 import React from 'react';
-import Link from 'next/link';
-import Image from 'next/image';
-import Phone from '@/components/ui/Phone';
-import Video from '@/components/ui/Video';
-import Laptop from '@/components/ui/Laptop';
-import Mansory from '@/components/ui/Mansory';
-import SliderOne from './ui/Slider';
-import { Layout } from './LayoutGrid';
 import Graphics from './ui/Graphics';
 
-const gradient01 = 'bg-gradient-to-br from-blue-400 to-fuchsia-600' // Yes // Yes
-const gradient02 = 'bg-gradient-to-br from-cyan-400 to-blue-600'; // Yes // Yes
-const gradient03 = 'bg-gradient-to-br from-teal-400 to-blue-600'; // Yes // Yes
+const gradient01 = 'bg-gradient-to-br from-blue-400 to-fuchsia-600'
 
 
 const Websites = () => {

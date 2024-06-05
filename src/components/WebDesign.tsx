@@ -1,9 +1,5 @@
 import React from 'react';
-import Image from 'next/image';
 import Graphics from '@/components/ui/Graphics';
-import Phone from './ui/Phone';
-import Laptop from './ui/Laptop';
-import Mansory from './ui/Mansory';
 
 const WebDesign = () => {
     return ( 

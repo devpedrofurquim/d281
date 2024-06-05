@@ -23,11 +23,9 @@ import { Button } from "@/components/ui/button";
 import {
   Form,
   FormControl,
-  FormDescription,
   FormField,
   FormItem,
   FormLabel,
-  FormMessage,
 } from "@/components/ui/form";
 
 import { Input } from "@/components/ui/input";
@@ -35,9 +33,8 @@ import { Input } from "@/components/ui/input";
 import { useToast } from "@/components/ui/use-toast";
 
 import { Textarea } from "@/components/ui/textarea";
-import { PiCheckLight, PiSmiley } from "react-icons/pi";
+import { PiSmiley } from "react-icons/pi";
 import Navbar from "@/components/Navbar";
-import Footer from "@/components/Footer";
 import Faq from "@/components/faq";
 
 const FormSchema = z.object({
