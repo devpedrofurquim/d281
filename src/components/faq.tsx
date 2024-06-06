@@ -13,7 +13,7 @@ const Faq = () => {
              <div className={`text-4xl pb-5 pt-5 md:text-7xl text-center px-6 bg-clip-text text-transparent bg-gradient-to-r from-violet-600 to-indigo-600 bg-opacity-50 font-semibold`}>
                 Dúvidas Frequentes <br />
             </div>
-            <Accordion type="single" collapsible className="text-black w-1/2">
+            <Accordion type="single" collapsible className="text-black w-full px-10 lg:px-96">
             <AccordionItem value="item-1">
                 <AccordionTrigger>Qual o tempo médio para entregar?</AccordionTrigger>
                 <AccordionContent>
