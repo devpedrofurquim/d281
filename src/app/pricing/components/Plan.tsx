@@ -55,8 +55,8 @@ const Plans = () => {
     return (  
         <section className="p-4 mx-auto relative z-10 w-full pt-10 md:pt-20 px-2">
         <div className="max-w-[1800px] mx-auto flex items-center justify-between flex-col relative">
-            <h1 className='text-5xl pb-5 md:text-7xl px-6 text-center bg-clip-text text-transparent bg-gradient-to-b from-neutral-50 to bg-neutral-400 bg-opacity-50 font-semibold'>
-                Escolha o seu plano
+            <h1 className='text-4xl pb-5 md:text-7xl px-6 text-center bg-clip-text text-transparent bg-gradient-to-b from-neutral-50 to bg-neutral-400 bg-opacity-50 font-semibold'>
+                Escolha o plano perfeito para <br/>o seu negócio
             </h1>
             <div className="mt-20 grid xl:grid-cols-3 gap-6 px-6 md:w-4/5 2xl:w-3/4 cursor-pointer pb-20 items-start">
                 {plans.map((plan, index) => (

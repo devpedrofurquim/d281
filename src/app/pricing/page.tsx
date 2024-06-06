@@ -16,7 +16,7 @@ const Pricing = () => {
           scrollToBrands={() => {}}
           scrollToServices={() => {}}
         />
-        <div className="min-h-screen md:items-center flex flex-col flex-grow w-full pt-10 md:pt-20">
+        <div className="min-h-screen md:items-center flex flex-col flex-grow w-full">
           <Plans />
         </div>
         <Faq />

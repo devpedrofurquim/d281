@@ -125,8 +125,8 @@ export default function ContactForm() {
       />
       <div className="flex flex-col min-h-screen max-w-screen-xl mx-auto text-center bg-black/[0.96] bg-grid-white/[0.02] pt-10 md:pt-20 ">
       <div>
-          <div className="text-3xl md:text-7xl font-semibold bg-clip-text text-transparent bg-gradient-to-b from-neutral-50 to-neutral-400 bg-opacity-50">
-            Contate nossa equipe de vendas
+          <div className="text-4xl md:text-7xl font-semibold bg-clip-text text-transparent bg-gradient-to-b from-neutral-50 to-neutral-400 bg-opacity-50">
+            Contate nossa <br/>equipe de vendas
           </div>
           <div
             className="py-10 text-lg text-gray-300">
